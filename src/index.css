@@ -1,0 +1,19 @@
+:root{--bg:#f3eadc;--bg-alt:#e6d3b9;--panel:#fbf6ee;--line:#d6c2a5;--accent:#2f4a6d;--accent-2:#233a57;--gold:#b48a3c;--text:#3a2e25;--muted:#5f5043;--wa:#25d366;--r:14px;--shadow:0 2px 14px rgba(70,50,30,.08)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font:400 16px/1.6 Manrope,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:700;line-height:1.1}
+h1{font-size:clamp(2.6rem,9vw,4.8rem)}h2{font-size:clamp(2rem,6vw,2.8rem);margin-bottom:.4rem}h3{font-size:1.5rem}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+section{padding:72px 0}
+.sub{color:var(--muted);max-width:52ch;margin-bottom:28px}
+.btn{display:inline-block;border:0;border-radius:999px;padding:13px 24px;font:700 1rem Manrope,sans-serif;cursor:pointer;text-decoration:none;background:var(--accent);color:#fff}
+.btn:hover{background:var(--accent-2)}
+.btn.wa{background:var(--wa);color:#04210f}
+.btn.ghost{background:transparent;border:1px solid var(--accent);color:var(--accent)}
+.note{color:var(--muted);font-size:.85rem}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.btn.ghost:hover{background:var(--bg-alt)}
+h2::after{content:"";display:block;width:56px;height:3px;border-radius:2px;background:var(--gold);margin-top:10px}

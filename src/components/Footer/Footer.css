@@ -1,0 +1,5 @@
+footer{background:#233a57;color:#d8dde6;padding:56px 0 100px;border-top:3px solid var(--gold)}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+footer h2{font-size:2rem;color:#fff}
+footer .sub{color:#c9d0dc}
+footer a:not(.btn){color:#e7c878}

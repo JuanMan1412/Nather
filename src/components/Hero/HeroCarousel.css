@@ -1,0 +1,12 @@
+.hc{position:relative;width:100%;aspect-ratio:4/5;max-height:580px;border-radius:var(--r);overflow:hidden;background:linear-gradient(160deg,#e9d9c1,#d6c0a0);border:2px solid var(--gold);box-shadow:var(--shadow)}
+.hc-slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .8s}
+.hc-slide.on{opacity:1}
+.hc-cap{position:absolute;left:0;right:0;bottom:0;padding:40px 16px 38px;color:#fff;font-size:.95rem;background:linear-gradient(transparent,rgba(0,0,0,.7))}
+.hc-btn{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border:0;border-radius:50%;background:rgba(255,255,255,.88);color:var(--accent);font-size:1.5rem;line-height:1;cursor:pointer}
+.hc-btn:hover{background:#fff}
+.hc-prev{left:10px}.hc-next{right:10px}
+.hc-dots{position:absolute;left:0;right:0;bottom:12px;display:flex;justify-content:center;gap:8px}
+.hc-dot{width:12px;height:12px;padding:0;border:0;border-radius:6px;background:rgba(255,255,255,.65);cursor:pointer;transition:width .3s}
+.hc-dot[aria-current=true]{width:26px;background:var(--gold)}
+.hc-empty{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:20px;color:var(--muted)}
+@media(prefers-reduced-motion:reduce){.hc-slide,.hc-dot{transition:none}}

@@ -1,0 +1,6 @@
+.cot{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:26px;display:grid;gap:18px;max-width:560px}
+.cot label{display:grid;gap:6px;font-weight:500}
+.cot select, .cot input[type=number], .cot input[type=text], .cot input[type=date]{background:var(--bg);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:11px;font:inherit}
+.cot .chk{display:flex;align-items:center;gap:10px;font-weight:400}
+.total{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--line);padding-top:16px}
+.total strong{font:700 2rem "Cormorant Garamond",serif;color:var(--gold)}

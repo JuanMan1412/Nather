@@ -1,0 +1,3 @@
+.lb{position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:50;display:grid;place-items:center;padding:20px}
+.lb img,.lb video{max-width:100%;max-height:82vh;border-radius:10px}
+.lb button{position:absolute;top:14px;right:18px;background:none;border:0;color:#fff;font-size:2rem;cursor:pointer}
